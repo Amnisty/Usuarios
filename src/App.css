@@ -1,0 +1,50 @@
+#Register{
+  border-radius: 8px;
+  width: 80px;
+  height: 40px;
+  margin-left: 12px;
+}
+
+#container{
+  display: flex;
+  justify-content: center;
+}
+#container_register{
+  flex-direction: column;
+}
+#input_pp{
+  width: 200px;
+  height: 40px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border-color: gray;
+  flex-shrink: 0;
+}
+#input_pp1{
+  width: 200px;
+  height: 40px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border-color: gray;
+  flex-shrink: 0;
+  margin-right: 12px;
+}
+#container_input{
+  gap: 50px;
+}
+#title{
+  text-align: center;
+}
+#subtitle{
+  margin-top: 12px;
+  text-align: center;
+}
+#button_edit{
+  background-color: aqua;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+#button_delete{
+  background-color: red;
+  border-radius: 8px;
+}
